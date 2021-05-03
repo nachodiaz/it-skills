@@ -1,158 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
-    
+
+/**** GOOGLE FONTS IMPORTS *****/ 
+/********************/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@500&display=swap')
+
+/*** VARIABLES *****/
+/******************/
 
 $bg-body: #0F0E0E
 $nav-dark: #0F0E0E 
 $color-text: #A2945F
 
+/*** GLOBAL CSS *****/
+/*******************/
+
 body
     background-color: #000 !important
     overflow-x: hidden
     overflow-z: hidden
-    margin: 0
-    padding: 0
-
-    
 h2 
     color: $color-text
     font-size: 2.5em
-    margin-left: 0px
     font-family: 'Roboto Condensed', sans-serif
-    text-align: left
-
-.row
     margin-left: 0px
-    margin-right: 0px    
-
-
-/***********************/
-/*** NAVIGATION ***/
+    text-align: left
+h3
+    color: $color-text
+    font-size: 1.5em
+    font-family: 'Roboto Condensed', sans-serif
+    margin-left: 0px
+    text-align: left
+p
+    color: $color-text 
 
 nav
     background: $nav-dark
     height: 95px
 a 
-    color: $color-text !important
-
-.navbar-nav .nav-link 
-    color: $color-text
-
-.icon-rrss
-    margin-left: 20px
-    width: 50px
-
-/***********************/
-/*** CAROUSEL ITEM ***/
-
-.carousel-item
-    height: 100vh
-
-/***********************/
-/*** GALLERY CARDS ***/
-
-.card-text
-    color: $color-text
-
-.title
-    padding-top:25px
-
-.card
-    background-color: #000 !important
-    border-style: none !important
-    margin: 0% 0% 3%
-.card img
-        border-radius:10px 
-
-.gallery-cards 
-    display: inline-block
-
-.image-circle
-    width: 190px
-    height: 180px
-    margin-left:40px
-    border-radius: 230px !important
-
-.banner-title
-    text-align: center
-
-.input
-    border-radius: 30px
-    border-style: none !important
-    padding: 10px
-    opacity: 0.5
-    width: 40%
-    height: 46px
-
-.button
-    background: #A07F32
-    color:#fff
-    font-size: 20px
-    border-style: none !important
-    border-radius:20px
-    width: 224px
-    height: 46px
-    margin-left:2%
-
-.footer
-    background: #212529 !important
-    height:258px
-    margin-top: 40px
-    
-.title
-    margin-top:20px
-    margin-bottom:40px
-
-.newsletter
-    margin-top:2%
-    margin-bottom: 5%
-
-//*************************//
-/****
-    RESPONSIVE 
-    DESIGN  *************/// 
-
-@media (max-width:500px)
-    html
-        width: 100% !important
-    .image-circle
-        margin: 0 auto
-    .button 
-        margin-top:10px
-        text-align: center 
-        width: 100% !important
-         
-    .image-card
-        margin-top:40px important !important
-    
-        width: 90%
-        margin: 0 auto
-
-@media (max-width:991px)
-  
-    h2
-        text-align: center
-    .image-circle
-        margin: 0 auto
-    .input
-        width: 80%
-        padding:5%
-        margin:2% 0% 2%
-    .button 
-        margin-top:10px
-        text-align: center 
-        width: 90% !important
-    .card-text
-        text-align: center
-    .banner-title 
-        padding: 15px
-        text-align: center
-        
-    .image-card
-        margin:10% 10% 0%!important
-    
-        width: 80%
-        margin: 0 auto
-  
+    color: $color-text !important 
