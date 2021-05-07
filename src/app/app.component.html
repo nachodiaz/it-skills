@@ -11,13 +11,17 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-1 mb-lg-0 jus">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Quiénes Somos</a>
+            <a class="nav-link active" aria-current="page" href="#quiénes-somos" >Quiénes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
             data-bs-toggle="dropdown" aria-expanded="false">
               Cursos
             </a>
+            
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -52,6 +56,11 @@
   <div class="carousel-inner">
     <div class="carousel-item active" >
       <div class="image-slider-1"></div>
+      <br>
+      <div class="carousel-caption d-none d-md-block">
+        <h4>Cómo Vender En RRSS</h4>
+        <p>Curso de cómo vender en redes sociales whatsapp y facebook</p>
+      </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -67,37 +76,124 @@
 <!-- ::::::::::: -->
 <!-- CONTENT -->
 
-<article class="container">
+<article class="container" >
 
-  <div class="row">
+  <div class="row" id="quiénes-somos" >
 
     <div class="title">
-      <h2>CURSOS MÁS VISTOS</h2>
+      <h2 class="text-center">QUIÉNES SOMOS</h2>
+    </div>
+
+    <div class="card col-lg-5 offset-lg-1">
+      <img src="/assets/about.jpg" class="card-img-top image-card" alt="...">
+    </div>
+    
+    <div class="card-text col-lg-6" style="font-size: 20px;">
+      
+      <p> “Information Technology Skills Chile es una agrupación de relatores 
+      independientes que creemos que la tecnología juega un rol importante 
+      y principal en la sociedad actual, por ende, buscamos
+      contribuir en el desarrollo y crecimiento de las habilidades de las personas en el ámbito tecnológico.”</p>
+      
+      <button class="button">SABER MÁS</button>
+
+    </div>
+
+  </div>
+
+  <div class="row" id="servicios" >
+
+    <div class="title">
+      <h2>SERVICIOS</h2>
+    </div>
+
+    <div class="card col-lg-4">
+      <img src="/assets/servicio1.svg" 
+      class="card-image-top offset-lg-1 offset-sm-3 offset-xl-2" width="286px" height="235px" alt="...">
+      <div class="card-body ">
+        <h3 class="card-title-paragraph text-center">Cursos</h3>
+        <p class="card-text-paragraph text-center">Todos los cursos son relacionados con las IT (Tecnologías de la información) y están enfocados a
+          cualquier persona interesa en el área.</p>
+          <a href="#" class="btn btn-warning">Saber Más</a>
+        </div>
+    </div>
+    
+    <div class="card col-lg-4">
+      <img src="/assets/servicio2.svg" 
+      class="card-image-top offset-lg-1 offset-sm-1" width="286px" height="235px"   alt="...">
+      <div class="card-body  ">
+        <h3 class="card-title-paragraph text-center">Diseño Instruccional y LMS</h3>
+        <p class="card-text-paragraph text-center">El servicio de diseño instruccional 
+          y LMS consiste en la creación de cursos en un ambiente de
+          aprendizaje virtual como Moodle.</p>
+        <a href="#" class="btn btn-warning">Saber Más</a>
+      </div>
+    </div>
+
+    <div class="card col-lg-4">
+      <img src="/assets/servicio3.svg" 
+      class="card-image-top offset-lg-1 offset-sm-1" width="286px" height="235px"  alt="...">
+      <div class="card-body ">
+        <h3 class="card-title-paragraph">Software factory.</h3>
+        <p class="card-text-paragraph text-center">El servicio software factory consiste en la creación de aplicaciones de software web y móviles a
+          medida.</p>
+        <a href="#" class="btn btn-warning">Saber Más</a>
+      </div>
+    </div>
+
+   
+
+  </div>
+
+  <div class="row" id="cursos">
+
+    <div class="title">
+      <h2>ÚLTIMOS CURSOS</h2>
     </div>
     
     <div class="card col-lg-3">
       <img src="/assets/curso-rss.png" 
       class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title-paragraph">Ventas con Facebook y WhatsApp</h3>
+        <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
     </div>
 
     <div class="card col-lg-3">
       <img src="/assets/python.png" 
-      class="card-img-top" alt="...">
+      class="card-img-top-paragraph" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Alfabetización en uso de Celulares</h3>
+        <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
     </div>
 
     <div class="card col-lg-3">
       <img src="/assets/kotlin.png" 
-      class="card-img-top" alt="...">
+      class="card-img-top-paragraph" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Card title</h3>
+        <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
     </div>
 
     <div class="card col-lg-3">
       <img src="/assets/android.png" 
       class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">Card title</h3>
+        <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
     </div>
 
   </div>
 
-  <div class="row">
+  <div class="row" id="equipo">
 
     <div class="title">
       <h2>EQUIPO</h2>
@@ -157,7 +253,7 @@
 <!-- NEWSLETTER -->
 <!-- ========== -->
 
-<article class="content">
+<article class="content" id="newsletter">
 
   <div class="row ">
     <div class="col-lg-12 col-sm-8 col-xs-5">
@@ -176,7 +272,7 @@
 <!-- ****** -->
 <!-- FOOTER -->
 
-<footer class="footer">
+<footer class="footer" >
 
   <div class="row">
 
