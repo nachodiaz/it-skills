@@ -14,23 +14,13 @@
             <a class="nav-link active" aria-current="page" href="#quiénes-somos" >Quiénes Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
-            data-bs-toggle="dropdown" aria-expanded="false">
-              Cursos
-            </a>
-            
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <a class="nav-link active" aria-current="page" href="#cursos">Cursos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Eva</a>
+            <a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" target="_blank" href="https://itskillschile.cl/eva/">Eva</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Noticias</a>
@@ -41,7 +31,7 @@
         </ul>
         <div class="d-flex">
           <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-          <a href="" ><img src="/assets/facebook-icon.png" class="icon-rrss" alt=""></a>
+          <a target="_blank" href="https://www.facebook.com/search/top?q=ITSkillsChile" ><img src="/assets/facebook-icon.png" class="icon-rrss" alt=""></a>
           <a href="" ><img src="/assets/insta-icon.png" class="icon-rrss" alt=""></a>
           <a href="" ><img src="/assets/twitter-icon.png"class="icon-rrss" alt=""></a>
         </div>
@@ -73,6 +63,8 @@
   </button>
 </header>
 
+<div class="container-fluid">
+
 <!-- ::::::::::: -->
 <!-- CONTENT -->
 
@@ -81,11 +73,11 @@
   <div class="row" id="quiénes-somos" >
 
     <div class="title">
-      <h2 class="text-center">QUIÉNES SOMOS</h2>
+      <h2 class="text-left">QUIÉNES SOMOS</h2>
     </div>
 
     <div class="card col-lg-5 offset-lg-1">
-      <img src="/assets/about.jpg" class="card-img-top image-card" alt="...">
+      <img src="/assets/about.svg" class="card-img-top image-card" alt="...">
     </div>
     
     <div class="card-text col-lg-6" style="font-size: 20px;">
@@ -98,6 +90,46 @@
       <button class="button">SABER MÁS</button>
 
     </div>
+
+  </div>
+
+  
+
+  <div class="row" id="cursos">
+
+    <div class="title">
+      <h2>CURSOS</h2>
+    </div>
+    
+    <div class="card col-lg-4">
+      <img src="/assets/curso-python+java.svg" 
+      class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title-paragraph text-center">Python 2 / Java - Proyecto WorldSkills 2020</h3>
+        <!-- <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        
+      </div>
+    </div>
+
+    <div class="card col-lg-4">
+      <img src="/assets/curso-python-.svg" 
+      class="card-img-top-paragraph" alt="...">
+      <div class="card-body">
+        <h3 class="card-title text-center">Python Essentials Español 2020 - WorldSkills</h3>
+        <!-- <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      </div>
+    </div>
+
+    <div class="card col-lg-4">
+      <img src="/assets/curso-moodle.svg" 
+      class="card-img-top-paragraph" alt="...">
+      <div class="card-body">
+        <h3 class="card-title text-center">Aula Virtual en Moodle</h3>
+        <!-- <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->        
+      </div>
+    </div>
+
+
 
   </div>
 
@@ -140,51 +172,6 @@
 
   </div>
 
-  <div class="row" id="cursos">
-
-    <div class="title">
-      <h2>ÚLTIMOS CURSOS</h2>
-    </div>
-    
-    <div class="card col-lg-3">
-      <img src="/assets/curso-rss.png" 
-      class="card-img-top" alt="...">
-      <div class="card-body">
-        <h3 class="card-title-paragraph">Ventas con Whatsapp y Facebook</h3>
-        <!-- <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-        
-      </div>
-    </div>
-
-    <div class="card col-lg-3">
-      <img src="/assets/python.png" 
-      class="card-img-top-paragraph" alt="...">
-      <div class="card-body">
-        <h3 class="card-title">Alfabetización en uso de celulares</h3>
-        <!-- <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-      </div>
-    </div>
-
-    <div class="card col-lg-3">
-      <img src="/assets/kotlin.png" 
-      class="card-img-top-paragraph" alt="...">
-      <div class="card-body">
-        <h3 class="card-title">Curso de Introdución a Koltin</h3>
-        <!-- <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->        
-      </div>
-    </div>
-
-    <div class="card col-lg-3">
-      <img src="/assets/android.png" 
-      class="card-img-top" alt="...">
-      <div class="card-body">
-        <h3 class="card-title">Curso Intrucción a Android</h3>
-        <!-- <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-      </div>
-    </div>
-
-  </div>
-
   <div class="row" id="equipo">
 
     <div class="title">
@@ -192,22 +179,22 @@
     </div>
     
     <div class="card col-lg-3">
-      <img src="/assets/team-profile1.png" 
+      <img src="/assets/Duque.png" 
       class="image-circle" alt="...">
     </div>
 
     <div class="card col-lg-3">
-      <img src="/assets/team-profile2.png" 
+      <img src="/assets/Aldunce.png" 
       class="image-circle" alt="...">
     </div>
 
     <div class="card col-lg-3">
-      <img src="/assets/team-profile3.png" 
+      <img src="/assets/Acevedo.png" 
       class="image-circle" alt="...">
     </div>
 
     <div class="card col-lg-3">
-      <img src="/assets/team-profile4.png" 
+      <img src="/assets/Zapata.png" 
       class="image-circle" alt="..."> 
     </div>
 
@@ -233,7 +220,7 @@
     </div>
     
     <div class="card col-lg-5 offset-lg-1">
-      <img src="/assets/metodology.png" class="card-img-top image-card" alt="...">
+      <img src="/assets/method.png" class="card-img-top image-card" alt="...">
     </div>
 
   </div>
@@ -261,6 +248,8 @@
 
 </article>
 
+</div>
+
 <!-- ****** -->
 <!-- FOOTER -->
 
@@ -270,7 +259,7 @@
 
       <br>
 
-      <div class="col-lg-4 col-sm-12">
+      <div class="col-lg-4 col-sm-12" style="margin-top: 15px !important;">
         <h3 class="title-footer">Nuestra Dirección</h3>
         <p>
           Centro de Operaciones 
@@ -280,7 +269,9 @@
         </p>
       </div>
 
-      <div class="col-lg-4 col-sm-12">
+      <br>
+
+      <div class="col-lg-4 col-sm-12" style="margin-top: 15px !important;">
         <h3 class="title-footer">Estamos Activos en las redes</h3>
         <div class="social-icons">
           <a href="" ><img src="/assets/facebook-icon.png" class="icon-rrss" alt=""></a>
@@ -289,8 +280,11 @@
         </div>
       </div>
 
-      <div class="row col-lg-4 col-sm-12">
-        <h3 class="title-footer">Contáctenos</h3>
+      <br>
+ 
+      <div class="row col-lg-4 col-sm-12" style="margin-top: 15px !important;">
+     
+        <h3 class="title-footer" >Contáctenos</h3>
         <p><img src="/assets/wsp.png" width="30px"  class="icon-footer" alt=""> +5694203717</p>
         <p><img src="/assets/icon-gmail.png" width="30px"  class="icon-footer" alt="">contacto@itskills.cl</p>
       </div>
