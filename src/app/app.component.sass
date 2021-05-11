@@ -1,10 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@500&display=swap')
+
 /*** VARIABLES *****/
 /******************/
 
 $bg-body: #21262d
 $bg-card: #21262d
-$nav-dark: #21262d 
+$nav-dark: #21262d
 $color-text: #A2945F
 $paragraph-text: #fff
 
@@ -15,7 +19,7 @@ body
     background-color: #000 !important
     overflow-x: hidden
     overflow-z: hidden
-h2 
+h2
     color: $color-text
     font-size: 2.5em
     font-family: 'Roboto Condensed', sans-serif
@@ -35,14 +39,15 @@ h4
     text-align: center
 
 p
-    color: $color-text 
+    color: $color-text
 
 nav
     background: $nav-dark !important
     height: auto
     padding: 2%
-a 
-    color: $color-text !important 
+a
+    color: $color-text !important
+
 
 
 
@@ -53,24 +58,24 @@ a
     margin-left: 20px
     width: 50px
 
-.navbar-nav .nav-link 
+.navbar-nav .nav-link
     color: $color-text
 
 /*** CAROUSEL ITEM ***/
 /***********************/
 
 .image-slider-1
-    background-image: url("/assets/slide1.svg") 
+    background-image: url("/assets/slide1.svg")
     background-size: cover
     background-position: center center
     height: 100vh
     width: 100%
 
 /***********************/
-/** ** * * *  * ** * * / 
+/** ** * * *  * ** * * /
 
 .image-sevices img
-    margin: 0 auto 
+    margin: 0 auto
 
 /*** GALLERY CARDS ***/
 
@@ -85,10 +90,10 @@ a
 .card
     background-color: #21262d !important
     border-style: none !important
-    margin: 0% 0% 3%  
+    margin: 0% 0% 3%
 .card img
-    border-radius:10px 
-.gallery-cards 
+    border-radius:10px
+.gallery-cards
     display: inline-block
 .image-circle
     width: 200px
@@ -110,14 +115,14 @@ a
     width: 40%
     height: 46px
 .button
-    background: #A07F32
-    color:#fff
+    background: $bg-body
+    border-style: dashed
+    color: $color-text
     font-size: 20px
-    border-style: none !important
-    border-radius:20px
+    border-radius: 20px
     width: 224px
     height: 46px
-    margin-left:2%
+
 .footer
     background: #404858 !important
     height: auto
@@ -130,7 +135,7 @@ a
 .title-footer
     text-align: center
 .newsletter
-    margin-top:2%
+    margin-top: 2%
     margin-bottom: 5%
 
 /*********FOOTER*********/
@@ -141,32 +146,31 @@ a
 
 /** CONFIGURATION NECESSARY **/
 /** NO DELETE THIS CSS !!! **/
-    
+
 .row
     margin-left: 0px
-    margin-right: 0px   
+    margin-right: 0px
 
 //*************************//
 /****
-    RESPONSIVE 
-    DESIGN  *************/// 
+    RESPONSIVE
+    DESIGN  *************///
 
 @media (max-width:500px)
     html
         width: 100% !important
     .image-circle
         margin: 0 auto
-    .button 
+    .button
         margin-top:10px
-        text-align: center 
-        width: 100% !important     
+        text-align: center
+        width: 100% !important
     .image-card
         margin-top:40px important !important
         width: 90%
         margin: 0 auto
-    
     .image-slider-1
-        background-image: url("/assets/itskills-slide1.png") 
+        background-image: url("/assets/itskills-slide1.png")
         background-size: cover
         background-position: center
         height: 100vh
@@ -181,23 +185,23 @@ a
         width: 100%
         padding:5%
         margin:2% 0% 2%
-    .button 
+    .button
         margin-top:10px
-        text-align: center 
+        text-align: center
         width: 60% !important
     .card-text
         text-align: center
-    .banner-title 
+    .banner-title
         padding: 15px
         text-align: center
     .image-card
         margin:10% 10% 0%!important
         width: 80%
         margin: 0 auto
-        
+
     .image-slider-1
         background-color:#C1D4FA !important
-        background-image: url("/assets/slide1-mobile.svg") 
+        background-image: url("/assets/slide1-mobile.svg")
         background-size: cover
         background-position: center
         width: 100%
