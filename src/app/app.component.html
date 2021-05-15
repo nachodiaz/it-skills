@@ -11,27 +11,34 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-1 mb-lg-0 jus">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#quiénes-somos" >Quiénes Somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#cursos">Cursos</a>
+            <a class="nav-link active" aria-current="page" href="#quienes-somos" >Quiénes Somos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" target="_blank" href="https://itskillschile.cl/eva/">Eva</a>
+            <a class="nav-link active" aria-current="page" href="#metodologia">Metodología</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#cursos">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#newsletter">Newsletter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" target="_blank" href="https://itskillschile.cl/eva/">Eva</a>
+          </li>
+
+          <!-- <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Noticias</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Contacto</a>
-          </li>
+          </li> -->
         </ul>
         <div class="d-flex">
           <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-          <a target="_blank" href="https://www.facebook.com/search/top?q=ITSkillsChile" ><img src="/assets/facebook-icon.png" class="icon-rrss" alt=""></a>
+          <a target="_blank" href="https://www.facebook.com/itskillschile" ><img src="/assets/facebook-icon.png" class="icon-rrss" alt=""></a>
           <a href="" ><img src="/assets/insta-icon.png" class="icon-rrss" alt=""></a>
           <a href="" ><img src="/assets/twitter-icon.png"class="icon-rrss" alt=""></a>
         </div>
@@ -63,35 +70,39 @@
   </button>
 </header>
 
-<div class="container-fluid">
-
 <!-- ::::::::::: -->
 <!-- CONTENT -->
 
-<article class="container" >
+<article class="col-lg-10 offset-1">
 
-  <div class="row" id="quiénes-somos" >
+  <div class="row" id="quienes-somos">
 
-    <div class="card col-lg-5 offset-lg-1">
+    <div class="card col-lg-5 ">
       <img src="/assets/about.svg" class="card-img-top image-card" alt="...">
     </div>
 
-    <div class="card-text col-lg-7" style="font-size: 20px;">
+    <div class="col-lg-7" style="margin-top:-50px; ">
 
-    <br>
+      <div class="title" >
+        <h2>ITSKILLS CHILE</h2>
+      </div>
 
-    <h2 class="text-left">IT SKILLS CHILE</h2>
+      <p class="card-text">
+        “Information Technology Skills Chile es una agrupación de relatores
+         independientes que creemos que la 
+        tecnología juega un rol importante y principal en la sociedad actual, 
+        por ende, buscamos contribuir en el desarrollo y crecimiento de las 
+        habilidades de las personas en el ámbito tecnológico.”
+      </p>
 
-      <p> “Information Technology Skills Chile es una agrupación de relatores
-      independientes que creemos que la tecnología juega un rol importante
-      y principal en la sociedad actual, por ende, buscamos
-      contribuir en el desarrollo y crecimiento de las habilidades de las personas en el ámbito tecnológico.”</p>
-
-      <button class="button">SABER MÁS</button>
+      <div class="text-left">
+        <button class="button">SABER MÁS</button>
+      </div>
 
     </div>
 
-  </div>
+
+  </div> 
 
   <hr>
 
@@ -133,13 +144,13 @@
 
   </div>
 
-  <div class="row">
-
-    <div class="title">
-      <h2>METODOLOGÍA</h2>
-    </div>
+  <div class="row" id="metodologia">
 
     <div class="col-lg-7">
+
+      <div class="title" >
+        <h2>METODOLOGÍA</h2>
+      </div>
 
       <p class="card-text">
         Todos nuestros cursos y talleres aplican una metodología
@@ -148,7 +159,9 @@
         los requerimientos definidos en el proyecto.
       </p>
 
+      <div class="text-left">
       <button class="button">SABER MÁS</button>
+      </div>
 
     </div>
 
@@ -161,7 +174,7 @@
   <div class="row" id="cursos">
 
     <div class="title">
-      <h2>CURSOS</h2>
+      <h2 class="text-center">ÚLTIMOS CURSOS</h2>
     </div>
 
     <div class="card col-lg-4">
@@ -198,7 +211,7 @@
 
 
 
-  <div class="row" id="equipo">
+  <!-- <div class="row" id="equipo">
 
     <div class="title">
       <h2>EQUIPO</h2>
@@ -224,9 +237,7 @@
       class="image-circle" alt="...">
     </div>
 
-  </div>
-
-
+  </div> -->
 
 </article>
 
@@ -244,14 +255,14 @@
     </div>
   </div>
 
+  
+
   <div class="text-center newsletter">
     <input type="text" class="input" placeholder="ignaciosegiodiaz@gmail.com">
-    <button class="button">Enviar</button>
+    <button class="button" style="margin-left:20px;">Enviar</button>
   </div>
 
 </article>
-
-</div>
 
 <!-- ****** -->
 <!-- FOOTER -->
