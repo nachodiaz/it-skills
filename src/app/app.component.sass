@@ -1,20 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@500&display=swap')
-
 /*** VARIABLES *****/
-/******************/
-
 $bg-body: #21262d
 $bg-card: #21262d
 $nav-dark: #21262d
 $color-text: #A2945F
 $paragraph-text: #fff
-
 /*** GLOBAL CSS *****/
-/*******************/
-
 body
     background-color: #000 !important
     overflow-x: hidden
@@ -37,47 +30,33 @@ h4
     font-family: 'Roboto Condensed', sans-serif
     margin-left: 0px
     text-align: center
-
 p
     color: $color-text
-
 nav
     background: $nav-dark !important
     height: auto
     padding: 2%
 a
     color: $color-text !important
-
 /*** NAVIGATION CLASS *******/
-/****************************/
-
 .icon-rrss
     margin-left: 20px
     width: 50px
-
 .navbar-nav .nav-link
     color: $color-text
-
 /*** CAROUSEL ITEM ***/
-/***********************/
-
 .image-slider-1
     background-image: url("/assets/slide1.svg")
     background-size: cover
     background-position: center center
     height: 100vh
     width: 100%
-
-/***********************/
-/** ** * * *  * ** * * /
-
 .image-sevices img
     margin: 0 auto
-
 /*** GALLERY CARDS ***/
-
 .card-text
     color: $color-text
+    margin-top: -5
     font-size:1.2em
 .card-text-paragraph
     color: $paragraph-text
@@ -112,14 +91,13 @@ a
     width: 40%
     height: 46px
 .button
-    background: $bg-body
-    border-style: dashed
-    color: $color-text
+    background: $color-text
+    border-style: none !important
+    color: #fff
     font-size: 20px
     border-radius: 20px
     width: 224px
     height: 46px
-
 .footer
     background: #404858 !important
     height: auto
@@ -134,25 +112,12 @@ a
 .newsletter
     margin-top: 2%
     margin-bottom: 5%
-
 /*********FOOTER*********/
-//////////////////////////
-
 .icon-footer
     margin-right: 5%
-
-/** CONFIGURATION NECESSARY **/
-/** NO DELETE THIS CSS !!! **/
-
 .row
     margin-left: 0px
     margin-right: 0px
-
-//*************************//
-/****
-    RESPONSIVE
-    DESIGN  *************///
-
 @media (max-width:500px)
     html
         width: 100% !important
@@ -160,7 +125,7 @@ a
         margin: 0 auto
     .button
         margin-top:10px
-        text-align: center
+            
         width: 100% !important
     .image-card
         margin-top:40px important !important
@@ -171,35 +136,41 @@ a
         background-size: cover
         background-position: center
         height: 100vh
-
-
+        
 #quienes-somos
     padding-top:230px
     height: 100vh
-
 #servicios
-    padding-top:200px
+    padding-top:180px
     height: 100vh
-
 #metodologia
-    padding-top:250px
+    padding-top:220px
     height: 100vh
-
 #cursos
-    padding-top:150px
+    padding-top:120px
     height: 100vh
-
 #newsletter
     padding-top:320px
     height: 100vh
 
 @media (max-width:991px)
-
-    #quienes-somos
-        padding-top: 80px
-        height: 100vh    
     h2
         text-align: center
+    #quienes-somos
+        padding-top: 40px
+        height: auto
+    #servicios
+        padding-top: 200px
+        height: auto  
+    #metodologia
+        padding-top: 0px
+        height: auto
+    #cursos
+        padding-top: 0px
+        height: auto  
+    #newsletter
+        padding-top: 0px
+        height: auto  
     .image-circle
         margin: 0 auto
         margin-top: 8% !important
@@ -208,10 +179,13 @@ a
         padding:5%
         margin:2% 0% 2%
     .button
-        margin-top:10px
         text-align: center !important
-        width: 60% !important
-        
+        margin: auto
+        width: 80% !important
+        border-style: none !important
+        background: $color-text
+        color: #fff
+        height: 70px 
     .card-text
         text-align: center
     .banner-title
@@ -221,10 +195,8 @@ a
         margin:10% 10% 0%!important
         width: 80%
         margin: 0 auto
-
     .image-slider-1
         background-image: url("/assets/slide1-mobile.svg")
-    
         width: 100%
         height: 100vh
         color: $color-text !important

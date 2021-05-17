@@ -1,4 +1,3 @@
-<!--::::::::::-->
 <!--NAVIGATION-->
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -28,7 +27,6 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" target="_blank" href="https://itskillschile.cl/eva/">Eva</a>
           </li>
-
           <!-- <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Noticias</a>
           </li>
@@ -38,54 +36,74 @@
         </ul>
         <div class="d-flex">
           <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-          <a target="_blank" href="https://www.facebook.com/itskillschile" ><img src="/assets/facebook-icon.png" class="icon-rrss" alt=""></a>
-          <a href="" ><img src="/assets/insta-icon.png" class="icon-rrss" alt=""></a>
-          <a href="" ><img src="/assets/twitter-icon.png"class="icon-rrss" alt=""></a>
+          <a target="_blank" href="https://www.facebook.com/it%20skillschile">
+            <img src="/assets/facebook-icon.png" class="icon-rrss" alt=""></a>
+          <a href=""><img src="/assets/insta-icon.png" class="icon-rrss" alt="instagram-icon"></a>
+          <a href=""><img src="/assets/twitter-icon.png" class="icon-rrss" alt="twitter-icon"></a>
         </div>
       </div>
     </div>
 </nav>
 
-<!-- HEADER & CAROUSEL -->
-<!---.................---->
+<!--HEADER & CAROUSEL-->
 
 <header id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" >
-      <div class="image-slider-1"></div>
-      <br>
-      <div class="carousel-caption d-none d-md-block">
-        <h4>Cómo Vender En RRSS</h4>
-        <p>Curso de cómo vender en redes sociales whatsapp y facebook</p>
+ 
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./../assets/slide1.svg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-center">Recarga tus Habilidades con ITSkills Chile</h2>
+          <p>Python 2 / Java - Proyecto WorldSkills 2020</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./../assets/slide2.svg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-center">Aprende Python2 con ITSkills</h2>
+          <p>Python Essentials Español 2020 - WorldSkills</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./../assets/slide3.svg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="text-center">Recarga tus Habilidades con ITSkills Chile</h2>
+          <p>Crear un Aula Virtual en Moodle</p>
+        </div>
       </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </header>
 
-<!-- ::::::::::: -->
-<!-- CONTENT -->
+<!--CONTENT-->
 
-<article class="col-lg-10 offset-1">
+<article class="col-lg-10 offset-lg-1">
 
   <div id="quienes-somos">
 
-    <div class="row" >
+    <div class="row">
 
-      <div class="card col-lg-5 ">
-        <img src="/assets/about.svg" class="card-img-top image-card" alt="...">
+      <div class="card col-lg-5">
+        <img src="/assets/about.svg" class="card-img-top image-card" alt="about">
       </div>
 
-      <div class="col-lg-7" style="margin-top:-50px; ">
+      <div class="col-lg-7" style="margin-top:-30px;">
 
-        <div class="title" >
+        <div class="title">
           <h2>ITSKILLS CHILE</h2>
         </div>
 
@@ -97,80 +115,86 @@
           habilidades de las personas en el ámbito tecnológico.”
         </p>
 
-        <div class="text-left">
+        <div class="text-left button">
           <button class="button">SABER MÁS</button>
         </div>
 
       </div>
 
-
     </div>  
 
   </div>
 
-  <hr>
+  <div id="servicios">
 
-  <div class="row" id="servicios" >
+      <div class="row">
 
-    <h2 class="text-center">¿Cómo funciona ITSkills?</h2>
+        <h2 class="text-center">¿Cómo funciona ITSkills?</h2>
 
-
-    <div class="card col-lg-4">
-      <img src="/assets/servicio1.svg"
-      class="card-image-top col-sm-12" width="282px" height="235px" alt="...">
-      <div class="card-body ">
-        <h3 class="card-title-paragraph text-center">Cursos</h3>
-        <p class="card-text-paragraph text-center">Todos los cursos son relacionados con las IT (Tecnologías de la información) y están enfocados a
-          todo el mundo interesado</p>
+        <div class="card col-sm-12 col-lg-4">
+          <img src="/assets/servicio1.svg"
+          class="image-card col-sm-12" width="282" height="235" alt="itskills cursos" />
+          <div class="card-body">
+            <h3 class="card-title-paragraph text-center">Cursos</h3>
+            <p class="card-text-paragraph text-center">Todos los cursos son relacionados 
+              con las IT (Tecnologías de la información) y están enfocados a
+              todo el mundo interesado</p>
+            </div>
         </div>
-    </div>
 
-    <div class="card col-lg-4">
-      <img src="/assets/servicio2.svg"
-      class="card-image-top offset-lg-1 offset-sm-1" width="290px" height="235px"   alt="...">
-      <div class="card-body  ">
-        <h3 class="card-title-paragraph text-center">Diseño Instruccional y LMS</h3>
-        <p class="card-text-paragraph text-center">El servicio de diseño instruccional
-          y LMS consiste en la creación de cursos en un ambiente de
-          aprendizaje virtual.. </p>
-      </div>
-    </div>
+        <div class="card col-lg-4">
+          <img src="/assets/servicio2.svg"
+          class="image-card offset-lg-1 offset-sm-1" width="290" height="235" alt="diseno instruccional lms" />
+          <div class="card-body  ">
+            <h3 class="card-title-paragraph text-center">Diseño Instruccional y LMS</h3>
+            <p class="card-text-paragraph text-center">El servicio de diseño instruccional
+              y LMS consiste en la creación de cursos en un ambiente de
+              aprendizaje virtual.. </p>
+          </div>
+        </div>
 
-    <div class="card col-lg-4">
-      <img src="/assets/servicio3.svg"
-      class="card-image-top offset-lg-1 offset-sm-1" width="286px" height="235px"  alt="...">
-      <div class="card-body ">
-        <h3 class="card-title-paragraph text-center">Software factory.</h3>
-        <p class="card-text-paragraph text-center">El servicio software factory consiste en la creación de aplicaciones de software web y móviles a
-          medida.</p>
+        <div class="card col-lg-4">
+          <img src="/assets/servicio3.svg"
+          class="image-card offset-lg-1 offset-sm-1" width="286" height="235" alt="software factory" />
+          <div class="card-body ">
+            <h3 class="card-title-paragraph text-center">Software factory</h3>
+            <p class="card-text-paragraph text-center">El servicio software factory consiste en la creación de aplicaciones de software web y móviles a
+              medida.</p>
+          </div>
+        </div>
       </div>
-    </div>
 
   </div>
 
-  <div class="row" id="metodologia">
+  <div id="metodologia">
 
-    <div class="col-lg-7">
+    <div class="row">
 
-      <div class="title" >
-        <h2>METODOLOGÍA</h2>
-      </div>
+        <div class="col-lg-7">
 
-      <p class="card-text">
-        Todos nuestros cursos y talleres aplican una metodología
-        de aprendizaje basado en proyectos(ABP).
-        En esta metodología el estudiante desarrolla una solución satisfaciendo
-        los requerimientos definidos en el proyecto.
-      </p>
+          <div class="title">
+            <h2>METODOLOGÍA</h2>
+          </div>
 
-      <div class="text-left">
-      <button class="button">SABER MÁS</button>
-      </div>
+          <p class="card-text">
+            Todos nuestros cursos y talleres aplican una metodología
+            de aprendizaje basado en proyectos(ABP).
+            En esta metodología el estudiante desarrolla una solución satisfaciendo
+            los requerimientos definidos en el proyecto.
+          </p>
 
-    </div>
+          <br>
 
-    <div class="card col-lg-5 offset-lg-1">
-      <img src="/assets/method.png" class="card-img-top image-card" alt="...">
+          <div class="text-left button">
+          <button class="button">SABER MÁS</button>
+          </div>
+
+        </div>
+
+        <div class="card col-lg-5 offset-lg-1">
+          <img src="/assets/method.png" class="card-img-top image-card col-sm-12" alt="metodologia-itskills">
+        </div>
+
     </div>
 
   </div>
@@ -183,7 +207,7 @@
 
     <div class="card col-lg-4">
       <img src="/assets/curso-python+java.svg"
-      class="card-img-top" alt="...">
+      class="card-img-top" alt="curso-python2-con-java-itskills">
       <div class="card-body">
         <h3 class="card-title-paragraph text-center">Python 2 / Java - Proyecto WorldSkills 2020</h3>
         <!-- <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
@@ -193,7 +217,7 @@
 
     <div class="card col-lg-4">
       <img src="/assets/curso-python-.svg"
-      class="card-img-top-paragraph" alt="...">
+      class="card-img-top-paragraph" alt="curso-python-itskills">
       <div class="card-body">
         <h3 class="card-title text-center">Python Essentials Español 2020 - WorldSkills</h3>
         <!-- <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
@@ -202,18 +226,14 @@
 
     <div class="card col-lg-4">
       <img src="/assets/curso-moodle.svg"
-      class="card-img-top-paragraph" alt="...">
+      class="card-img-top-paragraph" alt="curso-moodle-itskills">
       <div class="card-body">
         <h3 class="card-title text-center">Aula Virtual en Moodle</h3>
         <!-- <p class="card-text-paragraph">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
       </div>
     </div>
 
-
-
   </div>
-
-
 
   <!-- <div class="row" id="equipo">
 
@@ -245,38 +265,26 @@
 
 </article>
 
-<hr>
-
-<!-- NEWSLETTER -->
-<!-- ========== -->
+<!--NEWSLETTER-->
 
 <article class="content" id="newsletter">
-
   <div class="row ">
-    <div class="col-lg-12 col-sm-8 col-xs-5">
+    <div class="col-lg-12 col-sm-8 col-md-12 col-xs-5">
       <h2 class="banner-title ">Envíanos tu correo para recibir <br>
         eventos, descuentos y novedades</h2>
     </div>
   </div>
-
-  
-
-  <div class="text-center newsletter">
+  <div class="text-center newsletter ">
     <input type="text" class="input" placeholder="ignaciosegiodiaz@gmail.com">
-    <button class="button" style="margin-left:20px;">Enviar</button>
+    <button class="button" style="margin-left:20px; margin-top:20px;">Enviar</button>
   </div>
-
 </article>
 
-<!-- ****** -->
-<!-- FOOTER -->
+<!--FOOTER-->
 
-<footer class="footer" >
-
+<footer class="footer">
   <div class="row">
-
       <br>
-
       <div class="col-lg-4 col-sm-12" style="margin-top: 15px !important;">
         <h3 class="title-footer">Nuestra Dirección</h3>
         <p>
@@ -286,26 +294,20 @@
           Región Metropolitana
         </p>
       </div>
-
       <br>
-
       <div class="col-lg-4 col-sm-12" style="margin-top: 15px !important;">
         <h3 class="title-footer">Estamos Activos en las redes</h3>
         <div class="social-icons">
-          <a href="" ><img src="/assets/facebook-icon.png" class="icon-rrss" alt=""></a>
-          <a href="" ><img src="/assets/insta-icon.png" class="icon-rrss" alt=""></a>
-          <a href="" ><img src="/assets/twitter-icon.png"class="icon-rrss" alt=""></a>
+          <a href="https://www.facebook.com/it%20skillschile" ><img src="/assets/facebook-icon.png" class="icon-rrss" alt="facebook-icon"></a>
+          <a href="#" ><img src="/assets/insta-icon.png" class="icon-rrss" alt="instagram-icon"></a>
+          <a href="#" ><img src="/assets/twitter-icon.png" class="icon-rrss" alt="twitter-icon"></a>
         </div>
       </div>
-
       <br>
-
       <div class="row col-lg-4 col-sm-12" style="margin-top: 15px !important;">
-
         <h3 class="title-footer" >Contáctenos</h3>
-        <p><img src="/assets/wsp.png" width="30px"  class="icon-footer" alt=""> +5694203717</p>
-        <p><img src="/assets/icon-gmail.png" width="30px"  class="icon-footer" alt="">contacto@itskills.cl</p>
+        <p><img src="/assets/wsp.png" width="30"  class="icon-footer" alt="whatsapp-icon"> +5694203717</p>
+        <p><img src="/assets/icon-gmail.png" width="30"  class="icon-footer" alt="gmail-icon">contacto@itskills.cl</p>
       </div>
     </div>
-
 </footer>
